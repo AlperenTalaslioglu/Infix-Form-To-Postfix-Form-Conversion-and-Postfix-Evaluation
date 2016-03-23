@@ -12,13 +12,6 @@ The program will ask for an arithmetic expression in infix form. All the operato
 
 
 ### Example Input and outputs <br />
-
-Enter an arithmetic expression: 4 * 1 + 5 + 6 * 1 ;  <br />
-Input expression in postfix form: 4 1 * 5 + 6 1 * + ; <br /> 
-The result is: 15 <br /> <br />
-> The program supports the basic four operators (i.e., +, -, *, /) and the use of parenthesis.  <br />
-
-
 Enter an arithmetic expression (operators and operands must be separated with a space character and the expression must end with a ';' character)
 : 4 * 1 + 5 + 6 * 1 ; <br />
 Postfix form:  4 1 * 5 + 6 1 * + ; <br />
