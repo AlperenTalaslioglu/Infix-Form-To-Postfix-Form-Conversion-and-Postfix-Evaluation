@@ -21,80 +21,8 @@ The result is: 15 <br /> <br />
 
 Enter an arithmetic expression (operators and operands must be separated with a space character and the expression must end with a ';' character)
 : 4 * 1 + 5 + 6 * 1 ; <br />
-Postfix form:  <br />
--|   | <br />
--| * |  <br />
-- ---  <br />
- <br />
-
--|   | <br />
--| + |  <br />
-- ---  <br />
- <br />
-
--|   | <br />
--| + |  <br />
-- ---  <br />
- <br />
-
--|   | <br />
--| * |  <br />
--| + |  <br />
-- ---  <br />
- <br />
-4 1 * 5 + 6 1 * + ; <br />
-Result:  <br />
--|   | <br />
--| 4 |  <br />
-- ---  <br />
- <br />
-
--|   | <br />
--| 1 |  <br />
--| 4 |  <br />
-- --- 
- <br />
-
--|   | <br />
--| 4 |  <br />
-- ---  <br />
- <br />
-
--|   | <br />
--| 5 |  <br />
--| 4 |  <br />
-- ---  <br />
- <br />
-
--|   | <br />
--| 9 |  <br />
-- ---  <br />
- <br />
-
--|   | <br />
--| 6 |  <br />
--| 9 |  <br />
-- ---  <br />
- <br />
-
--|   | <br />
--| 1 |  <br />
--| 6 |  <br />
--| 9 |  <br />
-- ---  <br />
- <br />
-
--|   | <br />
--| 6 |  <br />
--| 9 |  <br />
-- ---  <br />
- <br />
-
--|   | <br />
--| 15 |  <br />
-- ---  <br />
- <br />
-15 <br />
+Postfix form:  4 1 * 5 + 6 1 * + ; <br />
+Result:  15 <br />
 Program ended with exit code: 0 <br />
 
 
