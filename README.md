@@ -1,6 +1,6 @@
 # Infix-Form-To-Postfix-Form-Conversion-and-Postfix-Evaluation
 
-This is an implementation of converstion of infix form expressions to postfix form expressions and evaluations of this postfix form expression. <br />
+This is an implementation of converstion of infix form expressions to postfix form expressions and evaluations of this postfix form expressions. <br />
 
 ### Details <br />
 
